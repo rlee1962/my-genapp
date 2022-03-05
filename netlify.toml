@@ -1,0 +1,11 @@
+
+[build]
+  functions = "src/components"
+  build = "build"
+
+
+
+[build.environment]
+  # change this value, you can set it in Netlify's UI too
+  GO_IMPORT_PATH = "github.com/rlee1962/gen-app.git"
+
